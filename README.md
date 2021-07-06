@@ -231,4 +231,7 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     Task 1: Formulário com caixa de texto para inserção da justificativa
     Task 2: Submissão para autorização do gestor
     Task 3: Persistência da justificativa no banco de dados
+    
+### Diagrama Arquitetural
 
+![Untitled Diagram](https://user-images.githubusercontent.com/82480022/124528841-8f816700-dddf-11eb-9733-f7b221805ec9.jpg)
