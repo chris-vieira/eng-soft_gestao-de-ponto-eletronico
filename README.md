@@ -26,7 +26,7 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     HTML, CSS
     VueJS
 ### Organização:
-    Azure Devops: https://dev.azure.com/jessicagiori/Engenharia%20de%20Software/_backlogs/backlog/Engenharia%20de%20Software%20Team/Epics
+    Github
 
 ### Backlog do Produto:
 #### Features:
@@ -37,25 +37,23 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
   5. Justificativa de ajuste (ausência, atraso, etc) 
   6. Localização do usuário
   7. Relatório sintético (banco de horas, horas extras, faltas e atrasos, absenteísmo, localização)
-  
-### Backlog da Sprint:
 
 ##### Feature 1: Cadastro e login de colaboradores e administradores. Responsável: Délisson Junio
 
-###### Historia 1: Como um usuário, eu gostaria de fazer login no sistema.
+###### Historia 1: Como um colaborador, eu gostaria de fazer login no sistema.
     Task 1: Criar tabelas de usuários no banco de dados
     Task 2: Criar tela de login
     Task 3: Receber credenciais do usuário
     Task 4: Validar credenciais no banco de dados
     Task 5: Permitir a entrada do usuário caso as credenciais sejam válidas
 
-###### Historia 2: Como um administrador, eu gostaria de cadastrar um novo colaborador.
+###### Historia 2: Como um gestor, eu gostaria de cadastrar um novo colaborador.
     Task 1: Criar tela de cadastro de novo perfil
     Task 2: Armazenar perfil no sistema
     Task 3: Gerar credenciais iniciais
     Task 4: Transmitir credenciais por e-mail
 
-###### Historia 3: Como um usuário, eu gostaria de recuperar meu acesso em caso de perda de credenciais.
+###### Historia 3: Como um colaborador, eu gostaria de recuperar meu acesso em caso de perda de credenciais.
     Task 1: Criar botão "esqueci minha senha"
     Task 2: Criar tela de recuperação de credenciais
     Task 3: Receber dados do usuário
@@ -64,11 +62,11 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     Task 6: Criar tela de escolha de nova senha
     Task 7: Armazenar a nova senha no sistema
 
-###### Historia 4: Como um administrador, eu gostaria visualizar uma lista dos colaboradores no sistema.
+###### Historia 4: Como um gestor, eu gostaria visualizar uma lista dos colaboradores no sistema.
     Task 1: Criar tela de listagem de colaboradores com nome e função
     Task 2: Criar tela de visualização de colaborador individual com nome, função, e-mail e telefone
 
-###### Historia 5: Como um administrador, eu gostaria de alterar dados do perfil de outro usuário.
+###### Historia 5: Como um gestor, eu gostaria de alterar dados do perfil de outro usuário.
     Task 1: Criar tela de edição de perfil de usuário
     Task 2: Preencher dados na tela com informações do banco de dados
     Task 3: Permitir a edição dos dados
@@ -84,7 +82,7 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     Task 5: Registrar o ponto no banco de dados
     Task 6: Emitir comprovante para o colaborador
 
-###### Historia 2: Como um administrador, eu gostaria de verificar os pontos de um colaborador.
+###### Historia 2: Como um gestor, eu gostaria de verificar os pontos de um colaborador.
     Task 1: Adicionar tela de visualização de pontos de todos os colaboradores
     Task 2: Restringir essa tela para administradores apenas
     Task 3: Ler pontos do banco de dados
@@ -101,7 +99,7 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     Task 2: Na tela de visualização de pontos do colaborador, adicionar opção para pedir alteração
     Task 3: Receber informação de justificativa do colaborador e registrar um pedido de alteração de ponto no banco de dados
 
-###### Historia 5: Como um administrador, eu gostaria de aceitar ou recusar um pedido de alteração de ponto.
+###### Historia 5: Como um gestor, eu gostaria de aceitar ou recusar um pedido de alteração de ponto.
     Task 1: Criar tela de visualização de pedidos de alteração de pontos
     Task 2: Restringir essa tela para administradores apenas
     Task 3: Preencher dados na tela com informações do banco de dados
@@ -124,7 +122,7 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     Task 2: Ler horas do banco de dados
     Task 3: Listar todas as horas extras do usuário atual
     
-###### Historia 3: Como um administrador, eu gostaria de aceitar ou recusar pedidos de horas extras.
+###### Historia 3: Como um gestor, eu gostaria de aceitar ou recusar pedidos de horas extras.
     Task 1: Adicionar tela de visualização de pedidos de horas extras
     Task 2: Restringir essa tela para administradores
     Task 3: Preencher dados na tela com informação do banco de dados
@@ -132,7 +130,7 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     Task 5: Receber decisão e armazenar no banco de dados
     Task 6: Registar horas extras no banco de dados
     
-###### Historia 4: Como um administrador, eu gostaria de adicionar horas extras trabalhadas.
+###### Historia 4: Como um gestor, eu gostaria de adicionar horas extras trabalhadas.
     Task 1: Adicionar tela de visualização de horas extras
     Task 2: Restringir essa tela para administradores
     Task 3: Preencher dados na tela com informação do banco de dados
@@ -143,12 +141,12 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     Task 8: Registar horas extras no banco de dados
 
 ##### Feature 4: Justificativa de ajuste (ausência, atraso, etc). Responsável: Gabriel Gouvea
-###### Historia 1: Como usuário, eu gostaria de inserir justificativa de ajuste no ponto
+###### Historia 1: Como colaborador, eu gostaria de inserir justificativa de ajuste no ponto
     Task 1: Formulário com caixa de texto para inserção da justificativa
     Task 2: Submissão para autorização do gestor
     Task 3: Persistência da justificativa no banco de dados
     
-###### Historia 2: Como usuário, eu gostaria de poder autorizar justificativa de ajuste o ponto por parte do usuário
+###### Historia 2: Como colaborador, eu gostaria de poder autorizar justificativa de ajuste o ponto por parte do usuário
     Task 1: Consulta de todas as justificativas por usuário ou grupo de usuários
     Task 2: Formulário para aceitação/negação da justificativa
     Task 3: Persistência da aceitação/negação da justificativa no banco de dados
@@ -197,12 +195,40 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
 
 ##### Feature 6: Localização do usuário. Responsável: Christian Vieira
 
-###### Historia 1: Como um usuário, eu gostaria de automaticamente obter localização geoespacial de forma automática sempre que registrar ponto
+###### Historia 1: Como um colaborador, eu gostaria de automaticamente obter localização geoespacial de forma automática sempre que registrar ponto
     Task 1: Criar tela onde o usuário possa verificar localização atual (mapa geográfico)
     Task 2: Integração com serviço de geocoding reverso (obtenção de endereço a partir das coordenadas geográficas (latitude e longitude)
     Task 3: Persistir localização no banco de dados (coordenadas geográficas - latitude e longitude; endereço)
     Task 4: Possibilitar ao usuário realizar pequenas correções na sua localização, dentro de um limite aceitável (por exemplo em um raio de 100m)
     
-###### Historia 2: Como um usuário, eu gostaria de automaticamente obter localização geoespacial de forma automática sempre que registrar ponto
+###### Historia 2: Como um coloborador, eu gostaria de automaticamente obter localização geoespacial de forma automática sempre que registrar ponto
     Task 1: Criar tela onde o usuário possa verificar localização atual
     
+    
+### Backlog do Sprint:
+##### Historia 1: Como um colaborador, eu gostaria de fazer login no sistema.
+    Task 1: Criar tabelas de usuários no banco de dados
+    Task 2: Criar tela de login
+    Task 3: Receber credenciais do usuário
+    Task 4: Validar credenciais no banco de dados
+    Task 5: Permitir a entrada do usuário caso as credenciais sejam válidas
+##### Historia 2: Como um colaborador, eu gostaria de marcar um ponto.
+    Task 1: Criar tabelas de ponto no banco de dados
+    Task 2: Criar tela de marcar ponto
+    Task 3: Receber pedido de ponto do colaborador
+    Task 4: Analisar o ponto anterior e decidir se o ponto atual é de chegada, saída de almoço, volta de almoço ou saída da empresa
+    Task 5: Registrar o ponto no banco de dados
+    Task 6: Emitir comprovante para o colaborador
+##### Historia 3: Como um colaborador, eu gostaria de requisitar horas extras.
+    Task 1: Criar tabela de horas extras no banco de dados
+    Task 2: Criar tela para requisitar horas extras 
+    Task 3: Receber pedido do colaborador
+    Task 4: Verificar se o pedido respeita o limite de 2 hora diárias
+    Task 5: Retornar aviso ao usuário se o pedido exceder o limite
+    Task 6: Registrar se o pedido é em dia útil ou não
+    Task 7: Registar pedido no banco de dados
+##### Historia 4: Como um colaborador, eu gostaria de inserir justificativa de ajuste no ponto
+    Task 1: Formulário com caixa de texto para inserção da justificativa
+    Task 2: Submissão para autorização do gestor
+    Task 3: Persistência da justificativa no banco de dados
+
